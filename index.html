@@ -1,0 +1,616 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Css link-->
+    <link rel="stylesheet" href="style.css">
+    <!--fontawesome 5 link-->
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <!--google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabriela&family=Jacques+Francois&family=Lemon&family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+    <title>Pepsi Drink</title>
+  </head>
+  <body id="Mainbody" style="background-color: #0062be">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top " >
+            <div class="container">
+                <a class="navbar-brand my-2" href="#">
+                    <img src="logo.png" style="width:70px; height:70px">
+                </a>
+                <button class="navbar-toggler shadow-none" style="border: none; " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars fa-x-lg " id="barIcon" onclick="Close()"  style="color: white;"></i>
+                    <i class="fas fa-times fa-x-lg "id="closeIcon" onclick="Open()" style="color: white;display: none;"></i>
+                    
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+                    <ul class="navbar-nav  ms-auto mb-2 mb-lg-0" id="ItemAlign"  >
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"><p>Home</p></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="file:///C:/Users/Asif%20Farhan/Documents/Documents/web%20designing/Pepsi%20website/Index2.html" target="_blank"><p>Products</p></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#what's new"><p>What's New</p></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="file:///C:/Users/Asif%20Farhan/Documents/Documents/web%20designing/Pepsi%20website/News%20Letter/index.html" target="_blank"><p>Newsletter</p></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact"><p>Contact</p></a>
+                        </li>
+                    
+                    
+                    </ul>
+                    
+                </div>
+            </div>
+            
+        
+        </nav>
+        <div class="container FirstContainer mt-5 pt-5 mb-3" >
+            <div class="row g-4">
+                <div class="col-12 col-md-8 col-lg-8 col-xl-8 col-xxl-9 TextClass">
+                    <div class="HeadingText pt-3 mt-3 pb-3" style="color: white;">
+                        <h2 style="font-family: 'Lemon', cursive;">
+                            THAT'S WHAT
+
+                        </h2>
+                        <h1 style="font-family: 'Jacques Francois', serif;">
+                           I LIKE
+
+                        </h1>
+
+                    </div>
+                    <div class="paragraphText" style="color: white;">
+                        <p>
+                            PepsiCo, Inc. is an American multinational food, snack, and beverage corporation.<br>
+                             Headquartered in Harrison, New York, in the hamlet of Purchase.
+                        </p>
+
+                    </div>
+                    <div class="Button" >
+                        <a href="file:///C:/Users/Asif%20Farhan/Documents/Documents/web%20designing/Pepsi%20website/Index2.html"><button style="font-family: 'Gabriela', serif;">View All Products</button></a>
+
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-3 pt-3 ">
+                    <div class="Image">
+                        <img src="pepsi001.png" id="CImage" >
+                    </div>
+
+                </div>
+            
+
+            </div>
+            <div class="  ImageClass" style="position: fixed;top:30%;right:1.5%;z-index: 1;">
+                <div style="margin-bottom:20px">
+                    <img src="pepsi001.png"style="max-width:64px;max-height: 64px;" onclick="Change('pepsi001.png');ColorChange('#0062be')">
+                </div>
+                <div  style="margin-bottom:20px">
+                    <img src="gold.png" style="max-width:64px;max-height: 64px;" onclick="Change('gold.png');ColorChange('#e60c2c')">
+                </div>
+                <div  >
+                    <img src="pepsi003.png" style="max-width:64px;max-height: 64px;" onclick="Change('pepsi003.png');ColorChange('#1e1e1e')">
+                </div>
+
+            </div>
+
+        </div>
+        <div class="container-fluid  LayoutContainer" style="padding-top: 85px;padding-bottom: 30px;margin-top: 110px;position: relative;">
+            <div class="row g-4">
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4  ">
+                    <div class="ImageText " >
+                        <img src="textHead.png" class="img-fluid" >
+                        
+
+                    </div>
+                    
+                    
+
+                </div>
+                <div class="col-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8  ">
+                    <img src="background2.png" class="img-fluid">
+
+                </div>
+            </div>
+            <div style="position: absolute;bottom: 30px; right:5%;z-index: -1;">
+                <img src="background.png" class="img-fluid">
+                
+            </div>
+            
+
+        </div>
+        <div class="container-fluid SecondContainer " style="padding-top: 85px;padding-bottom: 70px;margin-top: 110px;">
+            <div class="container" id="Vanish"  >
+                <div class="row  ">
+                    <div style="position: relative;"    class="col-12 col-md-10 col-lg-11 col-xl-9 col-xxl-8 mx-auto" style="position: relative;" >
+                        <div class="row g-5 "  >
+                            <div class="col-12 col-md-5 col-lg-7 col-xl-8 col-xxl-8">
+                                <div class="ImageText " id="TextImageA">
+                                    <img src="headline.png" >
+                                    
+    
+                                </div>
+                                <div class="row ">
+                                    <div class="col-10 col-md-10 col-lg-12 col-xl-12 col-xxl-12 mx-auto mb-5 mt-3 " style="position: relative;">
+                                        <div class="AllImageClass " id="AllImage" style="position: relative;">
+                                            
+                                            <img class="thumbnil" src="pepsiThumbnil.jpg" style="width:100%">
+                                            <img class="PlayButton" src="open.png" onclick="OpenTheVideo('VideoPepsi.mp4')"> 
+                                            
+                                            
+                                            
+
+                                        </div>
+                                        <video class="VideoMobile"  width="100%" height="100%"  autoplay muted  loop >
+                                            <source src="ZeroPepsi.mp4 " type="video/mp4">
+                                            
+                        
+                        
+                                        </video>
+
+                                    </div>
+
+                                </div>
+                                
+    
+                            </div>
+                            <div class="col-12 col-md-7 col-lg-5 col-xl-3 col-xxl-4">
+                                <div class="Image" id="ImagePepsi" style="display: flex;justify-content: center;align-items: center;">
+                                    <img class="ImageZero" id="ImageZeroA" src="pepsiZero.png" onclick="ZeroDisplay('')" >
+                                    <img class="ImageZero2"  id="ImageZeroB" src="pepsi003.png" onclick="ZeroDisplayB('')"   >
+                                    <img class="ImageZero3"  id="ImageZeroC" src="ZeroMango.png" onclick="ZeroDisplayC('')" >
+                                </div>
+    
+                            </div>
+                            
+    
+                        </div>
+                        
+                        <video class="Video" id="OnVideo" width="100%" height="100%" controls autoplay >
+                            <source src="VideoPepsi.mp4 " type="video/mp4">
+                            
+        
+        
+                        </video>
+                        <img class="CloseButton" id="Close" src="close.png" onclick="CloseTheVideo('')" >
+                        
+                        
+                        
+                        
+                        
+                        
+    
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+            
+
+        </div>
+        
+        
+        <div class="container ThirdContainer my-3 pt-3 pb-2 ">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-11 col-xl-10 col-xxl-9 mx-auto BigDevicePepsi">
+                    <div class="row g-4">
+                        <div class="col-12 col-md-7 col-lg-7 col-xl-7 col-xxl-8 ">
+                            <img src="pepsi.png" class="img-fluid">
+                            
+        
+                        </div>
+                        <div class="col-12 col-md-5 col-lg-5 col-xl-5 col-xxl-4 pt-5">
+                            <img src="thats.png" class="img-fluid">
+                            
+        
+                        </div>
+        
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-12 col-lg-11 col-xl-10 col-xxl-9 mx-auto mobileClassPepsi">
+                    <div class="row g-4">
+                        
+                        <div class="col-12 col-md-5 col-lg-5 col-xl-5 col-xxl-4 pt-5">
+                            <img src="thats.png" class="img-fluid">
+                            
+        
+                        </div>
+                        <div class="col-12 col-md-7 col-lg-7 col-xl-7 col-xxl-8 ">
+                            <img src="pepsi.png" class="img-fluid">
+                            
+        
+                        </div>
+        
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="container-fluid my-3 pt-5 pb-2 ">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 ">
+                    <div class="row g-3">
+                        <div class="col-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">
+                            <img src="TitleKfc.png" class="img-fluid">
+
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                            <div class="text-center" >
+                        
+                                <img src="KFCPepsi.png" class="img-fluid">
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid my-3 pt-3 pb-2 VideoContainerFull">
+            <div >
+                <video class="VideoFullScreen "  width="100%"   autoplay muted loop >
+                    <source src="FullScreenVideo.mp4" type="video/mp4">
+                    
+    
+    
+                </video>
+
+            </div>
+
+        </div>
+        
+        <div class="container-fluid my-4 ">
+            <div class="row">
+                <div class="col-11 col-md-10 col-lg-9 col-xl-8 col-xxl-6 mx-auto">
+                    
+                    <div class="text-center" >
+                        <img src="TextDesign.png" class="pb-1" style="max-width:250px">
+                        <img src="Double.png" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-5 mb-3 pb-2" id="what's new">
+            <h1 class="HooverText py-3">STAY ON THE PULSE. FOLLOW PEPSI.</h1>
+            <div class="row">
+                <div class="col-10 col-md-10 col-lg-10 col-xl-11 col-xxl-10 mx-auto HooverImage">
+                    <div class="row g-0 py-2">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                            <div class="row g-0">
+                                <div class="col-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 " style="position: relative;">
+                                    <div class="card" style="border: none;">
+                                        <img src="social-twitter.png" class="img-fluid">
+        
+                                    </div>
+                                    <div style="position: absolute;top:82%;left:5%;">
+                                        <i class="fab fa-twitter fa-lg" ></i>
+
+                                    </div>
+        
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 "style="position: relative;">
+                                    
+                                    <div class="card" style="border: none;">
+                                        <img src="social-facebook.png" class="img-fluid">
+            
+                                    </div>
+                                    <div style="position: absolute;top:82%;left:5%;">
+                                        <i class="fab fa-facebook-f fa-lg"></i>
+
+                                    </div>
+        
+                                    
+        
+                                </div>
+        
+                            </div>
+        
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                            <div class="row g-0">
+                                <div class="col-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 " style="position: relative;">
+                                    <div class="card" style="border: none;">
+                                        <img src="social-instagram.png" class="img-fluid">
+        
+                                    </div>
+                                    <div style="position: absolute;top:82%;left:5%;">
+                                        <i class="fab fa-instagram fa-lg"></i>
+
+                                    </div>
+        
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 " style="position: relative;">
+                                   
+                                    <div class="card" style="border: none;">
+                                        <img src="social-youtube.png" class="img-fluid">
+            
+                                    </div>
+                                    <div style="position: absolute;top:82%;left:5%;">
+                                        <i class="fab fa-youtube fa-lg"></i>
+
+                                    </div>
+        
+                                    
+        
+                                </div>
+        
+                            </div>
+        
+                        </div>
+        
+        
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="container-fluid my-3 pt-3 pb-2 ContactContainer" id="contact" >
+            <div style="position: relative;">
+                <img src="pepsiCola.jpg" class="img-fluid" style="opacity: 0.4;">
+                <div style="position: absolute; top: 30%;left: 50%;transform: translate(-50%,-50%);">
+                    <h2 class="ContactText" style="color: white;">We're here to help.</h2>
+                </div>
+                <div class="container" style="position: absolute; top: 50%;left: 50%;transform: translate(-50%,-50%);">
+                    <div class="row">
+                        <div class="col-10 col-lg-8 col-md-9 col-xl-7 col-xxl-6 mx-auto">
+                            <div class="input-group mb-3 ">
+                                
+                                <input type="text" class="form-control inputClass" placeholder="Search for answers" aria-label="Username" aria-describedby="basic-addon1">
+                                <span class="input-group-text " style="background-color: transparent;border: none;" id="basic-addon1"><span class="spanTool" style=" padding-left:10px;font-size: 1rem;color: white;">|</span><i class="fas fa-search fa-lg " style="padding-left: 20px;color: white;cursor: pointer;"></i></span>
+                                
+                                
+                                
+                            </div>
+                            <div>
+                                <hr style="width:100%;background-color: white;height: 3px;">
+                            </div>
+                            <div class="Microphone" >
+                               
+                                <i class="fas fa-microphone fa-lg " style="color: white;"></i>
+                                
+                                <div class="toolTip" style="color: white;"  >
+                                    
+                                    <p style="position: absolute;top:100%;left: 50%;transform: translate(0%,-50%);padding-left:3px;padding-right:3px;border-radius:10px;line-height:50px;background-color: gray;">Try speaking your question!</p>
+
+                                    
+                                    
+
+                                </div>
+                                
+
+                            </div>
+                            
+                            
+                            
+                        </div>
+
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+        <div class="footerPepsi container-fluid py-5">
+            <div class="row g-2 ">
+                <div class="col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 class1">
+                    <div class="container pb-3 ">
+                        <a class=" navbar-brand " href="#" >
+                            <img src="logo.png" style="width:90px; height:90px">
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 py-3 class2 ">
+                    <div class="row g-2">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" >
+                            <p class="footerText">
+                                
+                                CONTACT US<br>
+                                TERMS & CONDITIONS<br>
+                                PRIVACY POLICY
+                            </p>
+
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" >
+                            <p class="footerText">
+                                
+                                CONTACT US<br>
+                                TERMS & CONDITIONS<br>
+                                PRIVACY POLICY
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3  py-3">
+                    <div class="ButtonSubscribe text-center">
+                        <button class="SubscribeButton">
+                            SUBSCRIBE TO NEWSLETTER
+
+                        </button>
+                    </div>
+                    <div class="d-flex ICONFooter" style="justify-content: center;align-items: center;">
+                        <i class="fab fa-twitter fa-lg " style="padding-left: 10px;"></i>
+                        <i class="fab fa-facebook-f fa-lg"></i>
+                        <i class="fab fa-instagram fa-lg"></i>
+                        <i class="fab fa-youtube fa-lg"></i>
+
+                        
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="text-center pt-4 pb-2">
+                <p style="font-size: 0.8rem;color: white;">© Designed By Asif Farhan 2021-Present</p>
+            </div>
+
+        </div>
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+
+      
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <script>
+            var open=document.getElementById("barIcon");
+            var close=document.getElementById("closeIcon");
+            var itemPlaced=document.getElementById("ItemAlign");
+            var changE=document.getElementById("CImage");
+            var BackGroundChange=document.getElementById("Mainbody");
+            var MyVideo=document.getElementById("OnVideo");
+            var CloseButton=document.getElementById("Close");
+            var MyVideoA=document.getElementById("OnVideoA");
+            var CloseButtonA=document.getElementById("CloseA");
+            var ZeroPepsiShowA=document.getElementById("ImageZeroA");
+            var ZeroPepsiShowB=document.getElementById("ImageZeroB");
+            var ZeroPepsiShowC=document.getElementById("ImageZeroC");
+            
+            
+            
+
+            
+            
+            function Close() {
+                open.style.display="none";
+                close.style.display="block";
+                itemPlaced.style.textAlign="center";
+                
+              
+                
+                
+            }
+            function Open() {
+                open.style.display="block";
+                close.style.display="none";
+                
+            }
+            function Change(anything) {
+                changE.src=anything;
+                
+            }
+            function ColorChange(anything) {
+                BackGroundChange.style.background=anything;
+                
+            }
+            function OpenTheVideo(anything) {
+                MyVideo.style.display="block";
+                CloseButton.style.display="block";
+                
+                
+               
+                MyVideo.src=anything;
+                
+               
+
+
+                
+            }
+            function OpenTheVideoA(anything) {
+                MyVideoA.style.display="block";
+                CloseButtonA.style.display="block";
+                
+                
+               
+                MyVideoA.src=anything;
+                
+               
+
+
+                
+            }
+            function CloseTheVideo() {
+                CloseButton.style.display="none";
+                MyVideo.style.display="none";
+                MyVideo.src=null;
+
+
+                
+            }
+            function CloseTheVideoA() {
+                CloseButtonA.style.display="none";
+                MyVideoA.style.display="none";
+                MyVideoA.src=null;
+
+
+                
+            }
+            function ZeroDisplay(anything) {
+                ZeroPepsiShowB.style.display="block";
+                ZeroPepsiShowA.style.display="none";
+                
+                
+                
+
+               
+
+                
+            }
+            function ZeroDisplayB(anything) {
+                ZeroPepsiShowC.style.display="block";
+                ZeroPepsiShowB.style.display="none";
+
+                
+            }
+            function ZeroDisplayC(anything) {
+                ZeroPepsiShowC.style.display="none";
+                ZeroPepsiShowA.style.display="block";
+
+                
+            }
+            
+           
+
+
+        </script>
+  </body>
+</html>
